@@ -1,0 +1,17 @@
+.Aside {
+    border: 1px solid;
+    margin-top: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 160px;
+}
+
+@font-face {
+    font-family:"tech-ul" ;
+    src: url("./../../../assets/fonts/Agdasima-Regular.ttf");
+}
+
+ul, h3, li {
+    font-family: "tech-ul";
+    font-size: large;
+}

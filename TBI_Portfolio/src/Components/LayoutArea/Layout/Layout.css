@@ -1,0 +1,12 @@
+.Layout {
+	height: 100%;
+    display: grid;
+    grid-template-rows: 20% 80%;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+.Layout > header {
+    grid-column: span 2;
+}
+
+

@@ -1,0 +1,23 @@
+.Main {
+    padding: 0;
+    border: 1px solid;
+    margin-top: 150px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.my-image {
+    max-width: 120px;
+    margin-left: 300px;
+}
+
+@font-face {
+    font-family: "about-p";
+    src: url("./../../../assets/fonts/Caprasimo-Regular.ttf");
+}
+
+p {
+    font-family: "about-p";
+    font-size: large;
+    text-align: center;
+}
