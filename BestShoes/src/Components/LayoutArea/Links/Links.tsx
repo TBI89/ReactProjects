@@ -1,15 +1,15 @@
+import { NavLink } from "react-router-dom";
 import "./Links.css";
 
 function Links(): JSX.Element {
     return (
-        <div className="Links">
-			<h2>קישורים מומלצים בנוגע לנעליים</h2>
+        <div dir="rtl" className="Links">
+            <h2>תפריט</h2>
 
-            <a href="#">קישור</a><br/>
-            <a href="#">קישור</a><br/>
-            <a href="#">קישור</a><br/>
-            <a href="#">קישור</a><br/>
-            <a href="#">קישור</a>
+            <NavLink to="/home">דף הבית</NavLink><br />
+            <NavLink to="/products">מוצרים</NavLink><br />
+            <NavLink to="/success">סיפורי הצלחה</NavLink><br />
+            <NavLink to="/about">מי אנחנו</NavLink>
         </div>
     );
 }

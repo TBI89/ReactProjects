@@ -4,6 +4,7 @@ import Home from "../Home/Home";
 import Youtube from "../Home/Youtube/Youtube";
 import Links from "../Links/Links";
 import RandomBrand from "../RandomBrand/RandomBrand";
+import Routing from "../Routing/Routing";
 import "./Layout.css";
 
 function Layout(): JSX.Element {
@@ -14,9 +15,7 @@ function Layout(): JSX.Element {
                 <Header />
             </header>
             <main>
-                <Home />
-                <Youtube />
-                <RandomBrand />
+                <Routing />
             </main>
             <aside>
                 <Links />

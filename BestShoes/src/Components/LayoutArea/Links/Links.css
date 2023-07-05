@@ -1,3 +1,4 @@
-.Links {
-	
+.Links > h2 {
+	text-align: center;
+    text-decoration: underline;
 }
