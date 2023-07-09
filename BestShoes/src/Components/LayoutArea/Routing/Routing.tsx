@@ -4,6 +4,7 @@ import PageNotFound from "../../PageNotFound/PageNotFound";
 import Products from "../../Products/Products";
 import SuccessStoreys from "../../SuccessStoreys/SuccessStoreys";
 import Youtube from "../Home/Youtube/Youtube";
+import Employees from "../../EmployeesArea/Employees/Employees";
 
 function Routing(): JSX.Element {
     return (
@@ -18,6 +19,9 @@ function Routing(): JSX.Element {
 
             {/* SuccessStoreys Route */}
             <Route path="/success" element={<SuccessStoreys />}></Route>
+
+            {/* Employees Route */}
+            <Route path="/employees" element={<Employees />}></Route>
 
             {/* About Route */}
             <Route path="/about" element={<About />}></Route>

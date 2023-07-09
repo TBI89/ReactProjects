@@ -2,8 +2,9 @@ import "./About.css";
 
 function About(): JSX.Element {
     return (
-        <div className="About">
-			מי אנחנו...
+        <div dir="rtl" className="About">
+            <h2>מי אנחנו?</h2>
+            <p>אנחנו חנות הנעליים המגניבה ביותר בארץ</p>
         </div>
     );
 }

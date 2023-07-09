@@ -1,0 +1,18 @@
+div {
+    display: flex;
+    justify-content: center;
+}
+
+table, thead, tr, th, tbody, td {
+padding: 0;
+margin: 0;
+height: 100%;
+border: 1px solid;
+text-align: center;
+border-collapse: collapse;
+box-sizing: border-box;
+}
+
+img {
+    max-width: 50px;
+}

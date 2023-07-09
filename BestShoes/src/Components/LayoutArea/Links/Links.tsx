@@ -10,6 +10,7 @@ function Links(): JSX.Element {
             <NavLink to="/products">מוצרים</NavLink><br />
             <NavLink to="/success">סיפורי הצלחה</NavLink><br />
             <NavLink to="/about">מי אנחנו</NavLink>
+            <NavLink to="/employees">עובדים</NavLink>
         </div>
     );
 }
