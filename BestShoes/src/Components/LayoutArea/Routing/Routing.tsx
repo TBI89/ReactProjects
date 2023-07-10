@@ -5,6 +5,7 @@ import Products from "../../Products/Products";
 import SuccessStoreys from "../../SuccessStoreys/SuccessStoreys";
 import Youtube from "../Home/Youtube/Youtube";
 import Employees from "../../EmployeesArea/Employees/Employees";
+import UserList from "../../UserArea/UserList/UserList";
 
 function Routing(): JSX.Element {
     return (
@@ -22,6 +23,9 @@ function Routing(): JSX.Element {
 
             {/* Employees Route */}
             <Route path="/employees" element={<Employees />}></Route>
+
+            {/* Users Route */}
+            <Route path="/users" element={<UserList />}></Route>
 
             {/* About Route */}
             <Route path="/about" element={<About />}></Route>

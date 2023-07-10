@@ -1,5 +1,6 @@
 import axios from "axios";
 import appConfig from "../Utils/AppConfig";
+import Employee from "../Models/Employee";
 
 class EmployeesService {
 
