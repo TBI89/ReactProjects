@@ -37,7 +37,7 @@ function UserList(): JSX.Element {
 
                         <tr key={u.id}>
                             <td>{u.name}</td>
-                            <td>{u.userName}</td> {/*Doesn't display */}
+                            <td>{u.username}</td> {/*Doesn't display */}
                             <td>{u.email}</td>
                             <td>{u.phone}</td>
                             <td>{u.city}</td>   {/*Doesn't display */}

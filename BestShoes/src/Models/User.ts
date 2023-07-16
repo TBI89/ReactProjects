@@ -1,7 +1,7 @@
 class User {
     id: number;
     name: string;
-    userName: string;
+    username: string;
     email: string;
     phone: number;
     city: string;
