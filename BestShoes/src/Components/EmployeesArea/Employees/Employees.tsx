@@ -3,6 +3,7 @@ import employeesService from "../../../Services/EmployeeService";
 import appConfig from "../../../Utils/AppConfig";
 import "./Employees.css";
 import Employee from "../../../Models/Employee";
+import { NavLink } from "react-router-dom";
 
 function Employees(): JSX.Element {
 
@@ -20,6 +21,9 @@ function Employees(): JSX.Element {
 
     return (
         <div className="Employees">
+            
+            <h3>New Employee</h3>
+            <NavLink to="/employees/add" >➕</NavLink>
 
             <table>
                 <thead>

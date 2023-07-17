@@ -82,9 +82,9 @@ class EmployeesService {
 
         // Remove from global state:
         const action: EmployeesActions = { type: EmployeesActionType.DeleteEmployee, payload: id };
+        employeesStore.dispatch(action);
     }
 }
-
 
 const employeesService = new EmployeesService(); // Singleton
 
