@@ -41,7 +41,7 @@ class EmployeesService {
 
         // Header for configuration:
         const options = {
-            headers: { "Content type": "multipart/form-data" }
+            headers: { "Content-Type": "multipart/form-data" }
         }
 
         // Send employee to the backend:

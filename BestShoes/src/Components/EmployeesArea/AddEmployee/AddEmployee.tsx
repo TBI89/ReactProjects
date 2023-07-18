@@ -11,12 +11,14 @@ function AddEmployee(): JSX.Element {
 
     async function addNewEmployee(employee: Employee) {
         try {
+            employee.imageName = (employee.imageName as unknown as FileList)[0];
             await employeesService.addNewEmployee(employee);
-            console.log("New employee was added", employee);
+            alert("New employee was added");
+            navigate("/employees")
 
         }
-        catch (err) {
-            console.log(err);
+        catch (err: any) {
+            console.log(err.message);
         }
 
     }
@@ -25,7 +27,7 @@ function AddEmployee(): JSX.Element {
 
             <h2>Add New Employee</h2>
 
-            <form>
+            <form onSubmit={handleSubmit(addNewEmployee)}>
 
                 <label>First Name:</label>
                 <input type="text" {...register("firstName")} required minLength={2} maxLength={15}/>

@@ -6,7 +6,7 @@ class Employee {
     country: string;
     city: string;
     birthDate: string;
-    imageName: string;
+    imageName: string | File;
 }
 
 export default Employee;

@@ -40,8 +40,8 @@ function Employees(): JSX.Element {
 
                 {frontendEmployees.map(e =>
 
-                    <tbody>
-                        <tr key={e.id}>
+                    <tbody key={e.id}>
+                        <tr>
                             <td>{e.firstName}</td>
                             <td>{e.lastName}</td>
                             <td>{e.title}</td>

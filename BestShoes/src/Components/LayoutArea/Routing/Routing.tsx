@@ -7,6 +7,7 @@ import Youtube from "../Home/Youtube/Youtube";
 import Employees from "../../EmployeesArea/Employees/Employees";
 import UserList from "../../UserArea/UserList/UserList";
 import AddEmployee from "../../EmployeesArea/AddEmployee/AddEmployee";
+import UpdateEmployee from "../../EmployeesArea/UpdateEmployee/UpdateEmployee";
 
 function Routing(): JSX.Element {
     return (
@@ -27,6 +28,9 @@ function Routing(): JSX.Element {
 
             {/* Add Employee */}
             <Route path="/employees/add" element={<AddEmployee />} />
+
+            {/* Update Employee */}
+            <Route path="/employees/:empId" element={<UpdateEmployee />} />
 
             {/* Users Route */}
             <Route path="/users" element={<UserList />} />
